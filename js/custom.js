@@ -49,7 +49,7 @@ $(function() {
 			map: {
 			    options:{
 			        zoom:16,
-			        center: [51.576084, 0.488736],
+			        center: [50.959494, -3.987264],
 			        mapTypeId: google.maps.MapTypeId.MAP,
 			        mapTypeControl: false,
 			        mapTypeControlOptions: {
@@ -61,10 +61,10 @@ $(function() {
 			    }
 			},
 			marker:{
-			    latLng: [51.576084, 0.488736],
+			    latLng: [50.959494, -3.987264],
 			    options: {
 				    icon: new google.maps.MarkerImage(
-				        "images/map-pin.png", new google.maps.Size(223, 167, "px", "px")
+				        "images/map-pin-wb.png", new google.maps.Size(223, 167, "px", "px")
 				    )
 			    }
 			 }

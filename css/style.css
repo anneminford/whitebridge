@@ -78,7 +78,7 @@ img {
 	color: #fff;
 	padding: 0;
 	height: auto;
-	font-size: 40px;
+	font-size: 26px;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -96,12 +96,12 @@ img {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 600;
-	letter-spacing: 13px;
+	letter-spacing: 10px;
 }
 
 .nav li a {
 	font-family: 'Cabin', sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
@@ -919,16 +919,23 @@ img {
 .testimonials {
 	background: #363b3f url("../images/testimonial-bg.png") 0 0 no-repeat;
 	background-attachment: fixed;
+	margin-top: 70px;
 }
 
 .testimonials .centered {
 	margin: 0;
 }
 
-.testimonials p {
+.testimonials p,
+.testimonials blockquote {
 	font-size: 22px;
 	color: #fff;
 	margin: 0;
+}
+
+.testimonials blockquote {
+	padding:0;
+	border-left: 0;
 }
 
 #home_testimonial {
@@ -939,12 +946,18 @@ img {
 	bottom: 50px;
 }
 
-#home_testimonial .item p {
+#home_testimonial .item p,
+#home_testimonial .item blockquote {
 	position: relative;
 	-webkit-animation: Testimonials 1.5s normal; /* Safari 4+ */
 	-moz-animation:    Testimonials 1.5s normal; /* Fx 5+ */
 	-o-animation:      Testimonials 1.5s normal; /* Opera 12+ */
 	animation:         Testimonials 1.5s normal; /* IE 10+ */
+}
+
+cite {
+	color:#65c178;
+	font-size: 20px;
 }
 
 
